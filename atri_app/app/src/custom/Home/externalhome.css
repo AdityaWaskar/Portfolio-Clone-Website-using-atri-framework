@@ -1,0 +1,153 @@
+*{
+    font-family: 'Plusjakartadisplay', sans-serif;
+}
+
+
+.p-Home.TextBox17, .p-Home.TextBox24, .p-Home.TextBox50, .p-Home.TextBox53, .p-Home.TextBox192,.p-Home.TextBox256 ,.p-Home.TextBox251, .p-Home.TextBox268, .p-Home.TextBox292{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    line-height: 100%;
+    letter-spacing: 4px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p-Home.TextBox17, .p-Home.Div8{
+    letter-spacing: -5px;
+
+}
+
+.p-Home.Div229, .p-Home.Div230{
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+}
+
+.p-Home.Button1, .p-Home.Button2 {
+    position: relative;
+    font-weight: 700;
+    right: 7px;
+    bottom: 9px;
+    transition: all .3s ease;
+}
+
+.p-Home.Button1:hover, .p-Home.Button2:hover{
+    right: 0px;
+    bottom: 0px;
+    cursor: pointer;
+}
+
+.p-Home.TextBox190 {
+    font-weight: 500;
+}
+
+.p-Home.Flex168, .p-Home.Flex165, .p-Home.Flex164, .p-Home.Div162, .p-Home.Div161 {
+    margin-bottom: 20px;
+}
+
+.p-Home.TextBox189, .p-Home.TextBox188, .p-Home.TextBox187, .p-Home.TextBox186, .p-Home.TextBox185
+    {
+    /* font-size: 28px;
+    font-weight: 700; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 58px;
+    color: white;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.p-Home.TextBox204, .p-Home.TextBox221, .p-Home.TextBox224, .p-Home.TextBox236, .p-Home.TextBox240, .p-Home.TextBox246{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #000;
+    font-size: 24px;
+    line-height: 110%;
+    font-weight: 500;
+}
+
+.p-Home.TextBox257{
+    font-weight: 600;
+}
+
+.p-Home.TextBox263{
+    line-height: 130%;
+}
+
+.p-Home.TextBox267{
+    font-weight: 400    ;
+}
+
+.p-Home.TextBox269 {
+    font-weight: 700;
+}
+
+.p-Home.TextBox291 {
+    font-weight: 700;
+}
+
+/* Footer */
+.p-Home.TextBox292{
+    display: inline;
+    background-image: linear-gradient(108deg, #b16cea 14%, #ff5e69 57%, #ff8a56 81%, #ffa84b);
+    -webkit-transition: background-position 2000ms ease;
+    transition: background-position 2000ms ease;
+    font-size: 54px;
+    line-height: 110%;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+.p-Home.TextBox292::before{
+    
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background: linear-gradient(108deg, #b16cea 14%, #ff5e69 57%, #ff8a56 81%, #ffa84b);
+    border-radius: 8px;
+    transition: width 2000ms ease;
+
+}
+.p-Home.TextBox292:hover::before{
+    width: 470px;
+}
+
+
+
+.p-Home.TextBox298{
+    font-weight: 700;
+}
+
+
+/* .p-Home.Div235{
+    border-radius: 8px;
+    width: 470px;
+    margin-top: 65px;
+    height: 5px;
+    position: relative;
+    bottom: 57px;
+} */
+
+/* 
+@keyframes footer_text {
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 470px;
+    }
+} */
+
+.p-Home.Div235:hover{
+    cursor: pointer;
+    width: 500px;
+} 
